@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=devide-width,
+	initial-scale=1.0">
+	<title>Etiquetas HTML parte III</title>
+</head>
+<body>
+	<h1>Etiquetas HTML Parte III</h1>
+	<hr>
+	<h2>Rowspan y Colspan</h2>
+	<!-- Cuando queremos repetir una etiqueta n veces utilizaos el *
+	Ejemlpo: Repetir 3 veces la etiqueta tr -> tr*3-->
+	<table border="1" cellspacing="5" cellpadding="5"
+	align="center">
+		<tr>
+			<td colspan="4">C1 y C2 y C3 y C4</td>
+			<!--<td>C2</td>
+			<td>C3</td>
+			<td>C4</td>-->
+		</tr>
+		<tr>
+			<td rowspan="3" >C5 y C9 y C13</td>
+			<td colspan="3">C6 y C7 y C8</td>
+			<!--<td>C7</td>
+			<td>C8</td>-->
+		</tr>
+		<tr>
+			<!--<td>C9</td>-->
+			<td>C10</td>
+			<!--<td rowspan="2" colspan="2">C11 y C15</td>-->
+			<td rowspan="2">C11 y C15</td>
+			<td rowspan="2">C12 y C16</td>
+		</tr>
+		<tr>
+			<!--<td>C13</td>-->
+			<td>C14</td>
+			<!--<td>C15</td>-->
+			<!--<td>C16</td>-->
+		</tr>
+	</table>
+</body>
+</html>
