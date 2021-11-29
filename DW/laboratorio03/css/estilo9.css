@@ -1,0 +1,63 @@
+/* importando la letra de Google */
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@800&display=swap');
+
+/* agregamos el tipo de letra */
+* {
+	padding: 10px;
+}
+body {
+	background-color: orchid;
+}
+.contenedor {
+	background-color: white;
+}
+
+/* agregamos el tipo de letra importado */
+.parrafo1 {
+	font-family: 'Rubik', sans-serif;
+}
+.parrafo2 {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* agregamos estilo a la letra */
+.parrafo3 {
+	font-style: italic;
+}
+.parrafo4 {
+	font-style: oblique;
+}
+.parrafo5 {
+	font-style: normal;
+}
+.parrafo6 {
+	font-style: bold;
+}
+.parrafo7 {
+	font-style: bolder;
+}
+.parrafo8 {
+	font-variant: small-caps;
+}
+.parrafo9 {
+	font-style: italic;
+}
+.parrafo10 {
+	font-size: 10px;
+}
+
+/* utilizaremos las letras que hemos descargado */
+@font-face {
+	font-family: 'Zcool';
+	src: url('./fonts/ZCOOLKuaiLe-Regular.tff');
+}
+
+.parrafo11 {
+	font-family: 'Batman';
+}
+.parrafo12 {
+	font-family: 'Batman Oscuro';
+}
+.parrafo13 {
+
+}

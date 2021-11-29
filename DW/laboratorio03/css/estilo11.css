@@ -1,0 +1,52 @@
+.contenedor {
+	background-color: black;
+}
+
+/* generamos un degradado de abajo hacia arriba */
+.degradado1 {
+	width:
+}
+
+.degradado5 {
+	width: 500px;
+	height: 250px;
+	background: repeating-linear-gradient(-180deg, red, white);
+}
+
+
+/* aplicar angulos de inclinación */
+
+/* degradado de arriba hacia abajo */
+.degradado7 {
+	width: 500px;
+	height: 250px;
+	background: repeating-linear-gradient(-180deg, red, white);
+}
+
+/*degradado de abajo hacia arriba */
+.degradado8 {
+	width: 500px;
+	height: 250px;
+	background: repeating-linear-gradient(-180deg, red, white);
+}
+
+/* degradado de izquierda a derecha */
+.degradado9 {
+	width: 500px;
+	height: 250px;
+	background: repeating-linear-gradient(-180deg, red, white);
+}
+
+/* degradado de derecha a izquierda */
+.degradado10 {
+	width: 500px;
+	height: 250px;
+	background: repeating-linear-gradient(-180deg, red, white);
+}
+
+/* degradado de */
+.degradado11 {
+	width: 500px;
+	height: 250px;
+	background: repeating-linear-gradient(-180deg, red, white);
+}

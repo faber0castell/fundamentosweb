@@ -1,0 +1,114 @@
+/* agregamos color de donde para las etiquetas de maquetación */
+body {
+	background-color: darklateblue;
+}
+.contenedor {
+	background-color: darkgray;
+}
+header{
+	background-color: darkorchid;
+}
+nav{
+	background-color: darkgreen;
+}
+
+section{
+	background-color: white;
+}
+footer{
+	background-color: yellowgreen;
+}
+/* agregamos un borde de tipo dotted */
+.borde1 {
+	border-style: dotted;
+}
+/* agregamos un borde de tipo dashed */
+.borde2 {
+	border-style: dashed;
+}
+/* agregamos un borde de tipo solid */
+.borde3 {
+	border-style: solid;
+}
+/* agregamos un borde de tipo double */
+.borde4 {
+	border-style: double;
+}
+/* agregamos un borde de tipo groove */
+.borde5 {
+	border-style: groove;
+}
+/* agregamos un borde de tipo ridge */
+.borde6 {
+	border-style: ridge;
+}
+/* agregamos un borde de tipo inset */
+.borde7 {
+	border-style: inset;
+}
+/* agregamos un borde de tipo outset */
+.borde8 {
+	border-style: outset;
+}
+/* agregamos un borde de tipo none */
+.borde9 {
+	border-style: none;
+}
+/* agregamos un borde de tipo hidden */
+.borde10 {
+	border-style: hidden;
+}
+/* agregamos un borde de tipo combinado */
+/* border-style: (arriba y abajo) (izquierda y derecha) */
+/* border-style: (arriba) (izquierda y derecha) */
+/* border-style: (arriba) (derecha) (abajo) (izquierda) */
+.borde11{
+	border-style: dotted dashed solid double;
+}
+/* agregamos un borde de diferente ancho */
+.borde12 {
+	border-style: dotted;
+	border-width: 10px;
+}
+.borde13 {
+	border-style: dashed;
+	border-width: medium;
+}
+/* agregamos un borde de tipo dotted */
+.borde14 {
+	border-style: solid;
+	border-width: 10px 15px 4px 7px;
+}
+/* agregamos un borde con color*/
+.borde15 {
+	border-style: solid;
+	border-color: deeppink;
+}
+.borde16 {
+	border-style: dashed;
+	border-color: deeppink rebeccapurple blue yellowgreen;
+}
+/* aplicamos bordes a solo un lugar especifico */
+.borde17 {
+	border-top-style: dashed;
+}
+.borde18 {
+	border-bottom-style: dotted;
+}
+.borde19 {
+	border-left-style: solid;
+}
+.borde20 {
+	border-style: double;
+}
+/* agregamos un bordes redondeados */
+.borde21 {
+	border-style: solid;
+	border-width: medium;
+	border-radius: 5px;
+}
+.borde22 {
+	border-style: solid;
+	border-width: 20px;
+	border-radius: 15px;
+}

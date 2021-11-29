@@ -1,0 +1,107 @@
+body {
+	background-color: silver;
+}
+/* aplicaremos colores a cada una de las secciones de la pagina */
+.contenedor{
+	background-color: black;
+}
+header{
+	background-color: blue;
+}
+nav{
+	background color: cadetblue;
+}
+section{
+	background-color: blueviolet;
+}
+footer{
+	background-color: coral;
+}
+/* agregamos una imagen de fondo a un parrafo */
+.parrafoimagen{
+	background-image: url("../img/foto1.jpg");
+}
+/* agregamos un color de fondo con transparencia para el parrafo */
+.parrafotransparencia{
+	background-color: black;
+	opacity: 75%;
+	color: white;
+}
+/* agregamos una imagen de fondo que se repita */
+.parrafoimagenrepetir{
+	background-image: url("../img/html.png");
+}
+/* agregamos una imagen de fondo que NO se repita */
+.parrafoimagennorepetir{
+	background-image: url("../img/html.png");
+	background-repeat: no-repeat;
+}
+/* agregamos una imagen de fondo con tamaño */
+.parrafoimagentamaño{
+	background-image: url("../img/html.png");
+	background-size: 30px;
+}
+/* agregamos una imagen de fondo que se repita horizontalmente */
+.parrafoimagenrepetirhorizontal{
+	background-image: url("../img/html.png");
+	background-repeat: repeat-x;
+}
+/* agregamos una imagen de fondo que se repita horizontalmente */
+.parrafoimagenrepetirvertical{
+	background-image: url("../img/html.png");
+	background-repeat: repeat-y;
+}
+/* agregamos una imagen de fondo en el centro que no se repita */
+.parrafoimagencentrar{
+	background-image: url("../img/html.png");
+	background-repeat: no-repeat;
+	background-position: center;
+}
+/* agregamos una imagen de fondo en la izquierda que no se repita */
+.parrafoimagenizquierda{
+	background-image: url("../img/html.png");
+	background-repeat: no-repeat;
+	background-position: left;
+}
+/* agregamos una imagen de fondo en la derecha que no se repita */
+.parrafoimagenderecha{
+	background-image: url("../img/html.png");
+	background-repeat: no-repeat;
+	background-position: right;
+}
+/* agregamos una imagen de fondo en la parte superior que no se repita */
+.parrafoimagensuperior{
+	background-image: url("../img/html.png");
+	background-repeat: no-repeat;
+	background-position: top;
+}
+/* agregamos una imagen de fondo en la parte inferior que no se repita */
+.parrafoimageninferior{
+	background-image: url("../img/html.png");
+	background-repeat: no-repeat;
+	background-position: bottom;
+}
+/* agregamos una imagen de fondo en la parte superior derecha que no se repita */
+.parrafoimagensuperiorderecha{
+	background-image: url("../img/html.png");
+	background-repeat: no-repeat;
+	background-position: top right;
+}
+/* agregamos una imagen de fondo en la parte superior izquierda que no se repita */
+.parrafoimagensuperiorizquierda{
+	background-image: url("../img/html.png");
+	background-repeat: no-repeat;
+	background-position: top left;
+}
+/* agregamos una imagen de fondo en la parte inferior derecha que no se repita */
+.parrafoimageninferiorderecha{
+	background-image: url("../img/html.png");
+	background-repeat: no-repeat;
+	background-position: bottom right;
+}
+/* agregamos una imagen de fondo en la parte inferior izquierda que no se repita */
+.parrafoimageninferiorizquierda{
+	background-image: url("../img/html.png");
+	background-repeat: no-repeat;
+	background-position: bottom left;
+}
